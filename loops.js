@@ -32,7 +32,11 @@ function doWhileLoop(strangeLoop) {
   }
   
   do {
-    console.log('doo-bee-doo-bee-doo');
+    
+    strangeLoop.shift();
+    
+    return strangeLoop;
+    
   } while (maybeTrue());
   
 }
