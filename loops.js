@@ -25,6 +25,14 @@ function whileLoop(countdown) {
   
 }
 
-function doWhileLoop() {
+function doWhileLoop(strangeLoop) {
+  
+  function maybeTrue() {
+    return Math.random() >= 0.5;
+  }
+  
+  do {
+    
+  } while (maybeTrue());
   
 }
